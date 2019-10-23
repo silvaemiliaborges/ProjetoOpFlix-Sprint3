@@ -3,7 +3,24 @@
   margin: 0;
   box-sizing: border-box;
 }
-#cabecalhoPrinci {
+.cabecalhoPrinci {
     display: flex;
-    background-color: #9F1107
-}
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .cabecalhoPrinci {
+    display: flex;
+  }
+  
+  .cabecalhoPrinci {
+    background-color: #9F1107;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100%;
+  }
+  
+  .l {
+    justify-content: center;
+  }

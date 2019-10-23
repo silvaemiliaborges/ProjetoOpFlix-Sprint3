@@ -3,10 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-#cabecalhoPrinci {
-    display: flex;
-    background-color: #9F1107
-}
+
 .App {
   text-align: center;
 }
@@ -15,16 +12,38 @@
   height: 40vmin;
 }
 
-
-.cabecalhoPrinci {
-  background-color: #9F1107;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.imgs {
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ 
+}
+h1 {
+  color: black;
+  justify-content: center;
 
+  
 }
 
+
+.uu {
+  background-color: #E89180;
+}
+
+
+.imagg {
+  background-color: #E89180;
+  width: 100%;
+  /* display: flex; */
+
+}
+.conteudoss {
+  background-color: #707070;
+  justify-content: end;
+}
+
+#sect{
+  background-color: #707070;
+}
+#loogin {
+  background-color: #E89180;
+}

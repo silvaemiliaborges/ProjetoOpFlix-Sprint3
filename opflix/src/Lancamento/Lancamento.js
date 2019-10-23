@@ -21,18 +21,20 @@ export default class Lancamento extends React.Component {
             <div>
                 <Nav/>
                 <section className="container">
-                    <div className="lanca..">
+                    <div className="lanca">
                         <h1>
                             Lançamentos
                         </h1>
+
+                        <h2>Séries</h2>
                         <div className="imagenss">
-                            <img src={game}/>
-                            <img src={Stranger}/>
-                            <img src={supernatural}/>
-                            <img src={manifest}/>
-                            <img src={nancy}/>
-                            <img src={cath}/>
-                            <img src={bat}/>
+                            <img width="300px" height="300px" src={game}/>
+                            <img width="300px" height="300px" src={Stranger}/>
+                            <img width="300px" height="300px" src={supernatural}/>
+                            <img width="300px" height="300px" src={manifest}/>
+                            <img width="250px" height="250px" src={nancy}/>
+                            <img width="300px" height="300px" src={cath}/>
+                            <img width="300px" height="300px" src={bat}/>
                             </div>
                     </div>
                         <Link to='/Usuario'>Mais...</Link>

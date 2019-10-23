@@ -1,0 +1,7 @@
+.rodapePrincipal {
+    background-color: #9F1107;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}

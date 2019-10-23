@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import Axios from 'axios';
 
+import '../assets/css/categoria.css'
 import Rodape from '../../src/components/Rodape';
 import Nav from '../../src/components/Nav';
 
