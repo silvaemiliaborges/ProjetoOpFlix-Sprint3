@@ -26,7 +26,7 @@ const RotaPrivada = ({component: Component}) => (
                 <Component {...props}/>
             ) : (
                 <Redirect
-                    to={{pathname: "/", state: {from: props.location}}}
+                    to={{pathname: "/login", state: {from: props.location}}}
                     />
             )
         }
@@ -38,6 +38,7 @@ const routing = (
         <div>
             <Switch>
                 <Route exact path='/' component={App}/>
+                <Route exact path='/home' component={App}/>
                 <Route path='/Login' component={Login}/>
                 <Route path='/Lancamento' component={Lancamento}/>
                 <RotaPrivada path='/Categorias'component={Categorias}/>

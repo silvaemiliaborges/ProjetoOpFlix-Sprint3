@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Rodape from '../components/Rodape';
 import Nav from '../components/Nav';
 import Axios from 'axios';
+import '../assets/css/usuario.css';
 
 import { parseJwt } from '../services/auth.js';
 
@@ -37,9 +38,15 @@ export default class Usuario extends React.Component {
             <div>
                 <Nav/>
                 <section className="container_filme">
-                    <div className="filmess">
-                        <h1>Lançamentos</h1>
+                    
+                        <div className="filmess">
+                        
                         <div className="container" id="conteudotabelas-lista">
+                        <h1>Tendências 
+                            
+                        </h1>
+                        
+
                             <table id="tabela-lista">
                                 <thead>
                                     <tr>
@@ -70,6 +77,7 @@ export default class Usuario extends React.Component {
                             </table>
                         </div>
                     </div>
+                   
                 </section>
                 <Rodape/>
 

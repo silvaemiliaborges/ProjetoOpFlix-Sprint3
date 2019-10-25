@@ -9,9 +9,14 @@
     justify-content: space-between;
   }
   
-  .cabecalhoPrinci {
-    display: flex;
+  #Link {
+  
+    text-decoration:none;
+    font-size: 20px;
+    color: black;
   }
+
+
   
   .cabecalhoPrinci {
     background-color: #9F1107;

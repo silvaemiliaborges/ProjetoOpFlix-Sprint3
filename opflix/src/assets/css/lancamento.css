@@ -1,6 +1,38 @@
 .imagenss {
-    margin: 2em;
+    padding: 2px;
 }
-#container {
+
+
+.uu img{
+    margin: 2px;
+    justify-items: center;
+}
+
+
+.lanca {
     background-color: #E89180;
+    
+}
+h1 {
+    justify-content: center;
+    display: flex;
+    color: #9F1107;
+}
+h3 {
+    justify-content: center;
+    display: flex;
+    margin:1em 0;
+    
+}
+.filminhos img {
+    margin: 2px;
+}
+
+
+
+h2 {
+    justify-content: center;
+    display: flex;
+    margin:1em 0;
+
 }

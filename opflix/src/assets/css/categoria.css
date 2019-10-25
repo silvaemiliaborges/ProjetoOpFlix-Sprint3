@@ -1,0 +1,13 @@
+.filmess {
+    background-color: #E89180;
+}
+h1 {
+    display: flex;
+    justify-content: end;
+}
+.gg {
+    display: flex;
+    justify-content: center;
+    margin:1em 0;
+    
+}

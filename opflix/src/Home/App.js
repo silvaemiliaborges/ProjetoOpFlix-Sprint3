@@ -24,14 +24,14 @@ function App() {
       <Nav />
       <header className="cabecalhoNav">
         <div className="imagg">
-          <img src={logo} />
+          <img width="1425px" height="600px"src={logo} />
         </div>
       </header>
 
       <section className="conteudoss">
         <div>
           <div className="jk">
-          <img src={sino} />
+          <img  width="100px" height="100px"src={sino} />
           </div>
           <h1>Assista por 30 dias grátis</h1>
         </div>
@@ -41,23 +41,23 @@ function App() {
         <section id="cont" >
           <div className="uu">
           <div className="pp">
-            <Link to='/categorias'>Categorias</Link>
+            <Link id="Link" to='/categorias'>Categorias</Link>
           </div>
           <div className="imgs" >
 
             <div className="oo">
-              <img width="500px" height="600px" src={game} />
+              <img width="200px" height="300px" src={game} />
             </div>
             <div className="kj">
-              <img width="500px" height="600px" src={riverdale} />
+              <img width="200px" height="300px" src={riverdale} />
             </div>
 
             <div className="bb">
-              <img width="400px" height="600px" src={laCasaDePapel} />
+              <img width="200px" height="300px" src={laCasaDePapel} />
             </div>
 
             <div className="aa">
-              <img width="500px" height="600px" src={supernatural} />
+              <img width="200px" height="300px" src={supernatural} />
             </div>
             </div>
             
@@ -65,14 +65,14 @@ function App() {
         </section>
 
         <section id="sect">
-          <Link to='/lancamentos'>Lançamentos</Link>
+          <Link id="Link" to='/lancamento'>Lançamentos</Link>
           <div className="fot.art">
             <img src={arthizinho} />
           </div>
         </section>
 
         <section id="loogin">
-          <Link to='/login'>Login</Link>
+          <Link id="Link" to='/login'>Login</Link>
           <div class="item">
             <input class="input_login" placeholder="username" type="text" name="username" id="login_email" />
             <input class="input_login" placeholder="password" type="passaword" name="password" id="login_passoword" />

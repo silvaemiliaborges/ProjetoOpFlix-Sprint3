@@ -99,7 +99,7 @@ export default class Lancamento extends React.Component {
 
             .then(data =>{
                 if(data.status === 200){
-                    this.props.history.push('/usuario')
+                    this.props.history.push('/categorias')
                 }
             })
 
@@ -126,7 +126,7 @@ export default class Lancamento extends React.Component {
                         <main className="container" id="conteudo-Principal">
                             <h2>Lançamento</h2>
                             <form onSubmit={this.Cadastrar}>
-
+                                <div className="gg">
                                 <div>
                                     <label for="user">Nome</label>
 
@@ -215,16 +215,18 @@ export default class Lancamento extends React.Component {
                                         <option value="4">Aventura </option>
                                         <option value="5">Ficção ciêntifica
 
+
                                         </option>
 
                                     </select>
                                 </div>
-
+                                
 
 
 
 
                                 <button className="conteudo-btn">Enviar</button>
+                                </div>
                             </form>
                             <Rodape />
                         </main>
